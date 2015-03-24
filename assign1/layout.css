@@ -25,12 +25,14 @@
 }
 
 #back{
-    background: url(image/formback.png);
+    
     background-repeat: no-repeat;
     background-size: 100% 100%;
     
 } 
-
+body{
+    background: url(image/formback.png);
+}
 #formfont{
 font-family: impact;
   color:white ;
