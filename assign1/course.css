@@ -29,6 +29,7 @@ nav{
     background-color: #99c6de;
 }
 #backtotop{
+	font-family: Arial,sans-serif;
 	position:fixed;
 	right:0px;
 	width:100px;
