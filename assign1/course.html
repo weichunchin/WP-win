@@ -3,27 +3,24 @@
 <head>
   <meta charset="utf-8">
   <title>assign1</title>
-  <link href="course.css" rel="stylesheet" type="text/css" />
+  <link href="assign4.css" rel="stylesheet" type="text/css" />
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <script src="//code.jquery.com/jquery.min.js"></script>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 </head>
 <body>
 
-  <article id="page-container">
+  <article id="page-container" class="row">
 
-    <header id="top">
+    <header id="top" class="col-sm-2">
       <h1><strong>
 Course Introduction 課程介紹</strong></h1>
     </header>
     
     
 
-    <nav>
-      <h3>
-        
-    </h3>
-    <iframe class="youtube-player" type="text/html" width="320" height="240"  src="http://www.youtube.com/embed/AcWQk0olIbA" align="center" frameborder="0" > </iframe>
-    
-    </nav>
+
 
     <div id="introduction">
       
@@ -33,12 +30,21 @@ Course Introduction 課程介紹</strong></h1>
       <i class="fa fa-angle-double-up"></i>
       <a href=#top>backtotop</a>
     </div>
-
-  
-    <section class="courseinfo">
-      <dl>
-        <dt>
+    
+    
+    
+    <nav class="col-sm-2">
       <h3>
+        
+    </h3>
+    <iframe class="youtube-player" type="text/html" width="320" height="240"  src="http://www.youtube.com/embed/AcWQk0olIbA" align="center" frameborder="0" > </iframe>
+    
+    </nav>
+
+    <section class="courseinfo col-sm-8">
+      <dl>
+        <dt >
+      <h3 >
         <i class="fa fa-book"></i>
       學年/學期 Academic Year/Semester
       <br>
@@ -47,7 +53,7 @@ Course Introduction 課程介紹</strong></h1>
         <dd>
       102 學年 第 1 學期<br></dd>
         <dt>
-      <h3><i class="fa fa-book"></i>
+      <h3 class="col-sm-2"><i class="fa fa-book"></i>
       課程名稱 Course Name
       </span>703009-001</h3> </dt>
       <dd>
@@ -83,8 +89,13 @@ Course Introduction 課程介紹</strong></h1>
       另有實習課703955-00-1  <br></dd>
       </dl>
     </section>
-    <section class="courseindex">
-      <h3><i class="fa fa-tags"></i>
+    
+    
+
+    
+
+    <section class="courseindex row">
+      <h3 class="col-sm-2"><i class="fa fa-tags"></i>
 
       課程目標 Course objectives<br>
       </span></h3>
@@ -173,8 +184,8 @@ Bonus    ? % (participation and in-class performance)<br>
    </section>  
 
    <footer>
-
-   <center> <input type="button" value="報名課程" onclick="self.location.href='form.html'"></center>
+    
+   <center> <input class="btn btn-default" type="button" value="報名課程" onclick="self.location.href='form.html'"></center>
    nccu course<br>
    </footer>
 
