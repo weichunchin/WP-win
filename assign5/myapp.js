@@ -80,7 +80,7 @@ var weathericon = function(day,weather,time){
         skycons.set(day, Skycons.CLOUDY);
       }
      }
-     else if(weather.search("Rain") >= 0 || weather.search("Shower") >= 0){
+     else if(weather.search("Rain") >= 0 || weather.search("Shower") >= 0 || weather.search("Storm") >= 0){
       skycons.set(day, Skycons.RAIN);
      }
      else if(weather.search("Sleet") >= 0){
