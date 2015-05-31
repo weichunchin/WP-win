@@ -18,18 +18,25 @@
       console.log ("login") ;
       var username = $('#username').val() ;
       var password = $('#password').val() ;
-      console.log("登入之前的 Parse.User.current()  : ",Parse.User.current()  /*請完成程式碼部分*/) ;
+      console.log("登入之前的 Parse.User.current()  : ",Parse.User.current()) ;
 
     Parse.User.logIn( username , password , {
       success: function(user) {
-        // 到 console 看看 Parse.User.current()  的東西
-        console.log("登入之後的 Parse.User.current()  : ",Parse.User.current()/*請完成程式碼部分*/) ;
+        console.log("登入之後的 Parse.User.current()  : ",Parse.User.current()) ;
         alert('登入成功，並將您自動簽到，將轉移至個人頁面') ;
         Parse.User.current().set("signIn",true);
-        Parse.User.current().save();
-        window.location = 'index.html' ;
-        return null ;
+        Parse.User.current().save(null, {
+              success: function(user) {
+                   console.log('Save success! ');
+                   window.location = 'index.html' ;
+                   return null ;
+              },
+              error: function(user, error) {
+                   console.log('Failed to save, with error code: ' + error.message);
+              }
+        });//endof save
       },
+
       error: function(user, error) {
         console.log(error) ;
         alert(error.message);
