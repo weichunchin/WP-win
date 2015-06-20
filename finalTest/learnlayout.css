@@ -98,43 +98,50 @@ header{
     margin-bottom:-25px;
     margin-right:10px;
 }
+#day1,#day2,#day3,#day4,#day5,#day6,#day7,#day8{
+    margin-right:43px;
+    margin-bottom:-55px;
+    color:white;
+    font-size:16px;
+    font-family:  sans-serif;
+}
 
-#Box1{
+#Box1,#day1{
   position: absolute;
   bottom:1450px;
   right:45%;
 }
-#Box2{
+#Box2,#day2{
   position: absolute;
   bottom:1400px;
   right:32%;
 }
-#Box3{
+#Box3,#day3{
   position: absolute;
   bottom:1250px;
   right:25%;
 }
-#Box4{
+#Box4,#day4{
   position: absolute;
   bottom:1100px;
   right:32%;
 }
-#Box5{
+#Box5,#day5{
   position: absolute;
   bottom:1050px;
   right:45%;
 }
-#Box6{
+#Box6,#day6{
   position: absolute;
   bottom:1100px;
   right:58%;
 }
-#Box7{
+#Box7,#day7{
   position: absolute;
   bottom:1250px;
   right:65%;
 }
-#Box8{
+#Box8,#day8{
   position: absolute;
   bottom:1400px;
   right:58%;
