@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>learn</title>
+  <link href="learnlayout.css" rel="stylesheet" type="text/css" />
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="drag.js"></script>
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <article id="page-container">
+        <nav class="navBar">
+  	<ul>
+  	<li><a href= #page-container>AstroNews</a></li>
+  	<li><a href= #sunIntro>太陽</a></li>
+  	<li><a href= #season>四季</a></li>
+  	<li><a href= #moonIntro>月亮</a></li>
+  	<li><a href= #moonevent>陰晴圓缺</a></li>
+  	<li><a href= #sunmoonevent>日月蝕</a></li>
+    </ul>
+    
+        </nav>
+
+    <header>
+  	AstroNews
+  	<span id="date">June 1,2015</span>
+    </header>
+
+    <section id="sunIntro">
+    </section>
+
+    <section id="season">
+    </section>
+
+    <section id="moonIntro">
+    </section>
+    
+    <section id="moonevent">
+    test
+    <img id="moonResult" src="image/moon8.png" alt="earth" height="170" width="170">
+    <div id="mResult">朔月</div>
+    <img id="earth" src="image/earth.png" alt="earth" height="200" width="200">
+    <img id="sun" src="image/sun.png" alt="earth" height="500" width="500">
+    
+    <div id="Box1" ondrop="Drop(event)" ondragover="AllowDrop(event)">
+    
+    </div>
+    
+    <div id="Box2" ondrop="Drop(event)" ondragover="AllowDrop(event)"></div>
+    <div id="Box3" ondrop="Drop(event)" ondragover="AllowDrop(event)"></div>
+    <div id="Box4" ondrop="Drop(event)" ondragover="AllowDrop(event)"></div>
+    <div id="Box5" ondrop="Drop(event)" ondragover="AllowDrop(event)"></div>
+    <div id="Box6" ondrop="Drop(event)" ondragover="AllowDrop(event)"></div>
+    <div id="Box7" ondrop="Drop(event)" ondragover="AllowDrop(event)">
+<img id="Img2" src="image/moondrag.png" height="80" width="80" draggable="true" ondragstart="Drag(event)">
+    </div>
+    <div id="Box8" ondrop="Drop(event)" ondragover="AllowDrop(event)"></div>
+    <div style="clear:both;"></div>
+    </section>
+    
+
+    <section id="sunmoonevent">
+    </section>
+
+    </article >
+
+    
+
+</body>
+</html>
