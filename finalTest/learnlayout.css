@@ -80,12 +80,12 @@ header{
 #earth{
   position:absolute;
   bottom:1200px;
-  right:23%;
+  right:42%;
 }
 #sun{
   position:absolute;
   bottom:1050px;
-  left:-200px;
+  left:-275px;
 }
 #Box2,#Box3,#Box4,#Box5,#Box6,#Box7,#Box8,#Box1{
     width:100px;
@@ -100,53 +100,60 @@ header{
 #Box1{
   position: absolute;
   bottom:1450px;
-  right:26%;
+  right:45%;
 }
 #Box2{
   position: absolute;
   bottom:1400px;
-  right:13%;
+  right:32%;
 }
 #Box3{
   position: absolute;
   bottom:1250px;
-  right:6%;
+  right:25%;
 }
 #Box4{
   position: absolute;
   bottom:1100px;
-  right:13%;
+  right:32%;
 }
 #Box5{
   position: absolute;
   bottom:1050px;
-  right:26%;
+  right:45%;
 }
 #Box6{
   position: absolute;
   bottom:1100px;
-  right:39%;
+  right:58%;
 }
 #Box7{
   position: absolute;
   bottom:1250px;
-  right:46%;
+  right:65%;
 }
 #Box8{
   position: absolute;
   bottom:1400px;
-  right:39%;
+  right:58%;
 }
 #moonResult{
   position: absolute;
-  bottom:1400px;
-  right:60%;
+  bottom:1220px;
+  right:8%;
 }
 #mResult{
   position: absolute;
-  bottom:1340px;
-  right:64%;
+  bottom:1160px;
+  right:12%;
   color:white;
+}
+#dateResult{
+  position: absolute;
+  bottom:1430px;
+  right:13%;
+  color:white;
+  font-size:36px;
 }
 
 
