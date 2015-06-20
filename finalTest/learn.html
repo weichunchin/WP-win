@@ -3,12 +3,22 @@
 <head>
   <meta charset="utf-8">
   <title>learn</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="mycss.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script src="myjs.js"></script>
   <link href="learnlayout.css" rel="stylesheet" type="text/css" />
   <link href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="drag.js"></script>
   <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link rel="stylesheet" href="mycss.css">
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script src="myjs.js"></script>
+
 </head>
 <body>
     <article id="page-container">
@@ -33,6 +43,39 @@
     </section>
 
     <section id="season">
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="padding:35px 50px;">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4><span class="glyphicon glyphicon-info-sign"></span> 我是標題</h4>
+        </div>
+        <div class="modal-body" style="padding:40px 50px;">
+          我是內文
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> 離開</button>
+
+        </div>
+      </div>
+      
+    </div>
+  </div> 
+
+
+
+<div id="main">
+<img src="http://animated-sun.weebly.com/uploads/3/6/6/7/3667732/8519875_orig.gif" alt="" id="sun_season">
+  <div id="north" title="點我查看更多！"><img src="2015-06-20_114349.png" alt="" width='250px' height='200px' ></div>
+  <div id="west" title="點我查看更多！"><img src="2015-06-20_114458.png" alt="" width='250px' height='200px'></div>
+  <div id="south" title="點我查看更多！"><img src="2015-06-20_114509.png" alt="" width='250px' height='200px'></div>
+  <div id="east" title="點我查看更多！"><img src="2015-06-20_114518.png" alt="" width='250px' height='200px'></div>
+  
+</div>
     </section>
 
     <section id="moonIntro">
@@ -60,6 +103,7 @@
     <div id="Box8" ondrop="Drop(event)" ondragover="AllowDrop(event)"></div>
     <div style="clear:both;"></div>
     </section>
+    
     
 
     <section id="sunmoonevent">

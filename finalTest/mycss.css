@@ -1,0 +1,83 @@
+div#main{
+	position: absolute;
+	top: 1700px;
+	left: 20%;
+}
+#sun_season{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	top: 235px;
+	left: 400px;
+}
+div #north{
+	width: 250px;
+	height: 200px;
+	position: absolute;
+	top:20px;
+	left: 380px;
+	right:400px;
+	background-color: black;
+}
+div #west{
+	width: 250px;
+	height: 200px;
+	position: absolute;
+	top:220px;
+	left: 130px;
+	background-color: black;
+}
+div #south{
+	width: 250px;
+	height: 200px;
+	position: absolute;
+	top:450px;
+	left: 380px;
+	right:400px;
+	background-color: black;
+}
+div #east{
+	width: 250px;
+	height: 200px;
+	position: absolute;
+	top:220px;
+	left: 630px;
+	background-color: black;
+}
+
+div#main img{
+	opacity: 0.45;
+}
+/*shadow*/
+/* This code is tested with latest version of Firefox and Chrome */
+.box {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  
+  border-radius: 1%     1%     1%     1% /     1%     1%     1%     1%;
+  cursor: pointer; 
+}
+.box:before {
+      position: absolute;
+      width: 96%;
+      height: 19%;
+      left: 2%;
+      border-radius: 40%;
+      z-index: -1;
+      top: 5%;
+      content: "";
+      box-shadow: 0 -27px 16px rgba(0,0,0,0.32);
+      }
+.box:after {
+      position: absolute;
+      width: 96%;
+      height: 19%;
+      left: 2%;
+      border-radius: 40%;
+      z-index: -1;
+      bottom: 5%;
+      content: "";
+      box-shadow: 0 27px 16px rgba(0,0,0,0.32);
+      }
