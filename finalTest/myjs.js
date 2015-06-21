@@ -18,6 +18,30 @@ $(document).ready(function(){
 	        window.location.hash = target;
 	    });
 	});
+	$('#sun_1').mouseenter(function(){
+		$("#Introimg").attr("src","image/sun_1.png");
+	});
+	$('#sun_1').mouseleave(function(){
+		$("#Introimg").attr("src","image/sun_all.png");
+	});
+	$('#sun_2').mouseenter(function(){
+		$("#Introimg").attr("src","image/sun_2.png");
+	});
+	$('#sun_2').mouseleave(function(){
+		$("#Introimg").attr("src","image/sun_all.png");
+	});
+	$('#sun_3').mouseenter(function(){
+		$("#Introimg").attr("src","image/sun_3.png");
+	});
+	$('#sun_3').mouseleave(function(){
+		$("#Introimg").attr("src","image/sun_all.png");
+	});
+	$('#sun_4').mouseenter(function(){
+		$("#Introimg").attr("src","image/sun_4.png");
+	});
+	$('#sun_4').mouseleave(function(){
+		$("#Introimg").attr("src","image/sun_all.png");
+	});
 	$('#main img').mouseenter(function(){
 		$(this).css('opacity', '1'); 
 	});

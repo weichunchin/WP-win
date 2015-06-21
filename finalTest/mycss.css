@@ -21,6 +21,7 @@ div#main{
 #season_content{
 	font-size: 25px;
 	color: white;
+	text-align: left;
 }
 #sun_season{
 	position: absolute;
