@@ -1,7 +1,25 @@
 div#main{
 	position: absolute;
 	top: 1700px;
-	left: 20%;
+	left: 40%
+}
+#season_intro{
+	position: absolute;
+	top: 1650px;
+	left: 5%;
+	width: 700px;
+	height: 700px;
+	background-color: rgba(189,193,216,0.2);
+	border-radius: 10px;
+	padding: 5px;
+}
+#season_head{
+	font-size: 50px;
+	color: black;
+}
+#season_content{
+	font-size: 25px;
+	color: black;
 }
 #sun_season{
 	position: absolute;
