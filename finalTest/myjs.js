@@ -1,4 +1,11 @@
 $(document).ready(function(){
+
+   /* $('#quote').flipQuote({
+    container: '#container'
+    });*/
+
+
+
 	$('a[href^="#"]').on('click',function (e) {
 	    e.preventDefault();
 

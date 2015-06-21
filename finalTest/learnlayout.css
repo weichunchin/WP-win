@@ -19,7 +19,9 @@ header{
   width:100%;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   background-color:#f9c81e;
-  background-image: url("image/11.jpg");
+  background-image: url("image/season_base.png");
+  background-size: 100% 800px;
+    background-repeat: no-repeat;
   height:800px;
   color:white;
   text-align:center;
@@ -30,19 +32,55 @@ header{
 #sun_Intro{
   position: absolute;
   border-radius: 10px;
-  width: 700px;
+  font-family: 'Josefin Sans', sans-serif;
+  width: 600px;
   height: 700px;
-  right:5%;
+  left:5%;
   top:850px;
+  color:black;
+  background-color:rgba(255, 255, 255, 0.4);
+}
+#moon_Intro{
+  position: absolute;
+  border-radius: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+
+  width: 600px;
+  height: 700px;
+  left:5%;
+  top:2450px;
+  color:black;
+  background-color:rgba(255, 255, 255, 0.4);
+}
+#moonevent_Intro{
+  position: absolute;
+  font-family: 'Josefin Sans', sans-serif;
+  top: 3250px;
+  right: 5%;
+  width: 300px;
+  height: 700px;
+  background-color: rgba(189,193,216,0.2);
+
+  border-radius: 10px;
+  padding: 5px;
   color:white;
-  background-color:rgba(255, 255, 255, 0.7);
+}
+#sun_Intro>p{
+  font-size: 50px;
+
+  }
+#moonTitle{
+  font-size: 50px;
 }
 #sunIntro{
   width: 100%;
 
   height: 800px;
   word-break:break-all;
-  background-image: url("image/sun_base.png");
+  background-image: url("image/sun_base2.png");
+    background-size: 120% 1200px;
+    background-repeat: no-repeat;
+
   font-family:  sans-serif;
   
   text-align:center;
@@ -54,6 +92,9 @@ header{
   word-break:break-all;
   font-family:  sans-serif;
   background-color:white;
+  background-image: url("image/moonchange_base.png");
+  background-size: 100% 1000px;
+  background-repeat: no-repeat;
   text-align:center;
   font-size:26px; 
 }
@@ -63,6 +104,9 @@ header{
   word-break:break-all;
   font-family:  sans-serif;
   background-color:#020202;
+  background-image: url("image/moon_base.png");
+  background-size: 100% 1200px;
+  background-repeat: no-repeat;
   text-align:center;
   font-size:26px; 
 }
@@ -72,7 +116,9 @@ header{
   word-break:break-all;
   font-family:  sans-serif;
   background-color:#020202;
-
+  background-image: url("image/base.png");
+  background-size: 100% 800px;
+    background-repeat: no-repeat;
   text-align:center;
   font-size:26px; 
  
@@ -83,6 +129,9 @@ header{
   word-break:break-all;
   font-family:  sans-serif;
   background-color:white;
+  background-image: url("image/base3.png");
+  background-size: 100% 800px;
+    background-repeat: no-repeat;
   text-align:center;
   font-size:26px; 
 }
@@ -92,6 +141,7 @@ header{
   position:absolute;
   bottom:1200px;
   margin-bottom:-25px;
+  margin-right: 70px;
   right:42%;
 }
 #sun{
@@ -107,10 +157,10 @@ header{
     border:1px #ccc dashed;
     float:left;
     margin-bottom:-25px;
-    margin-right:10px;
+    margin-right:80px;
 }
 #day1,#day2,#day3,#day4,#day5,#day6,#day7,#day8{
-    margin-right:43px;
+    margin-right:113px;
     margin-bottom:-55px;
     color:white;
     font-size:16px;
@@ -161,22 +211,25 @@ header{
   position: absolute;
   bottom:1220px;
   right:8%;
-  margin-bottom:-25px;
+  margin-bottom:85px;
+  margin-right: 0px;
 }
 #mResult{
   position: absolute;
   bottom:1160px;
   right:12%;
   color:white;
-  margin-bottom:-25px;
+  margin-bottom:85px;
+  margin-right: 0px;
 }
 #dateResult{
   position: absolute;
   bottom:1420px;
   right:13%;
   color:white;
-  font-size:36px;
-  margin-bottom:-25px;
+  font-size:28px;
+  margin-bottom:-65px;
+  margin-right: 130px;
 }
 
 
@@ -305,3 +358,5 @@ footer{
   border-width: 1px;
   border-color: rgba(255, 255, 255, 0.2);
 }
+
+

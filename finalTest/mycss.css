@@ -5,9 +5,10 @@ div#main{
 }
 #season_intro{
 	position: absolute;
+	font-family: 'Josefin Sans', sans-serif;
 	top: 1650px;
-	left: 5%;
-	width: 700px;
+	right: 5%;
+	width: 500px;
 	height: 700px;
 	background-color: rgba(189,193,216,0.2);
 	border-radius: 10px;
@@ -15,19 +16,25 @@ div#main{
 }
 #season_head{
 	font-size: 50px;
-	color: black;
+	color: white;
 }
 #season_content{
 	font-size: 25px;
-	color: black;
+	color: white;
 }
 #sun_season{
 	position: absolute;
 	width: 200px;
 	height: 200px;
-	top: 235px;
-	left: 400px;
+	top: 135px;
+	left: -250px;
 }
+
+div #north,div #west,div #south,div #east{
+    margin-top: -100px;
+    margin-left: -650px;
+}
+
 div #north{
 	width: 250px;
 	height: 200px;
@@ -35,7 +42,7 @@ div #north{
 	top:20px;
 	left: 380px;
 	right:400px;
-	background-color: black;
+	
 }
 div #west{
 	width: 250px;
@@ -43,7 +50,7 @@ div #west{
 	position: absolute;
 	top:220px;
 	left: 130px;
-	background-color: black;
+	
 }
 div #south{
 	width: 250px;
@@ -52,7 +59,7 @@ div #south{
 	top:450px;
 	left: 380px;
 	right:400px;
-	background-color: black;
+	
 }
 div #east{
 	width: 250px;
@@ -60,7 +67,7 @@ div #east{
 	position: absolute;
 	top:220px;
 	left: 630px;
-	background-color: black;
+	
 }
 
 div#main img{
