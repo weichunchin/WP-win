@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .sun_intro {
   font-size: 25px; 
   top: -35px;
@@ -20,6 +21,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7886b3f9', e
 }
 
 
+=======
+>>>>>>> origin/gh-pages
 div#main{
 	position: absolute;
 	top: 1700px;
@@ -101,6 +104,7 @@ div #east{
 	left: 630px;
 	
 }
+<<<<<<< HEAD
 #sun_season{
 	opacity: 1;
 }
@@ -112,3 +116,42 @@ div#main img{
 .pointer {
    cursor: pointer; 
 }
+=======
+
+div#main img{
+	opacity: 0.45;
+}
+/*shadow*/
+/* This code is tested with latest version of Firefox and Chrome */
+.box {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  
+  border-radius: 1%     1%     1%     1% /     1%     1%     1%     1%;
+  cursor: pointer; 
+}
+.box:before {
+      position: absolute;
+      width: 96%;
+      height: 19%;
+      left: 2%;
+      border-radius: 40%;
+      z-index: -1;
+      top: 5%;
+      content: "";
+      box-shadow: 0 -27px 16px rgba(0,0,0,0.32);
+      }
+.box:after {
+      position: absolute;
+      width: 96%;
+      height: 19%;
+      left: 2%;
+      border-radius: 40%;
+      z-index: -1;
+      bottom: 5%;
+      content: "";
+      box-shadow: 0 27px 16px rgba(0,0,0,0.32);
+      }
+>>>>>>> origin/gh-pages
