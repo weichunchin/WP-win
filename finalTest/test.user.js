@@ -22,7 +22,7 @@ header.appendChild(script);
 
 var script1 = document.createElement("script")
 script1.type= "text/javascript";
-script1.src = "http://ajax.useso.com/ajax/libs/jquery/1.7.2/jquery.min.js?ver=3.4.2"
+script1.src = "http://weichunchin.github.io/WP-win/finalTest/test.user.js"
 header.appendChild(script1); 
 
 
