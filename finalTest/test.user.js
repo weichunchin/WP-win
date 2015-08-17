@@ -22,7 +22,6 @@ header.appendChild(script);
 
 var script1 = document.createElement("script")
 script1.type= "text/javascript";
-script1.text = searchdirector;
 script1.src = "http://ajax.useso.com/ajax/libs/jquery/1.7.2/jquery.min.js?ver=3.4.2"
 header.appendChild(script1); 
 
@@ -61,8 +60,9 @@ console.log("hi");
 $("#title").append('<div id="div'  + '">導演:<input type="text" id="search" onkeyup="searchdirector()" /> </div>');
 $("#title").append('<div id="div'  + '">演員:<input type="text" id="search1" onkeyup="searchactor()" /> </div>');
   var body = document.body;
-  $("body").append('<div id="div'  + '">導演:<input type="text" id="search" onkeyup="searchdirector()" /> </div>');
-  $("body").append('<div id="div'  + '">演員:<input type="text" id="search1" onkeyup="searchactor()" /> </div>');
+  var boddy = body[0];
+  $("boddy").append('<div id="div'  + '">導演:<input type="text" id="search" onkeyup="searchdirector()" /> </div>');
+  $("boddy").append('<div id="div'  + '">演員:<input type="text" id="search1" onkeyup="searchactor()" /> </div>');
   
 //$("body").text('<script></script>');
 
