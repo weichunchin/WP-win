@@ -57,12 +57,11 @@ function onload()
 {
 	
 console.log("hi");
-$("#title").append('<div id="div'  + '">導演:<input type="text" id="search" onkeyup="searchdirector()" /> </div>');
-$("#title").append('<div id="div'  + '">演員:<input type="text" id="search1" onkeyup="searchactor()" /> </div>');
+/*$("#title").append('<div id="div'  + '">導演:<input type="text" id="search" onkeyup="searchdirector()" /> </div>');
+$("#title").append('<div id="div'  + '">演員:<input type="text" id="search1" onkeyup="searchactor()" /> </div>');*/
   var body = document.body;
-  var boddy = body[0];
-/*  $("boddy").append('<div id="div'  + '">導演:<input type="text" id="search" onkeyup="searchdirector()" /> </div>');*/
-  $("boddy").append('<div id="div'  + '">演員:<input type="text" id="search1" onkeyup="searchactor()" /> </div>');
+  $("body").prepend('<div id="div'  + '">導演:<input type="text" id="search" onkeyup="searchdirector()" /> </div>');*/
+  $("body").prepend('<div id="div'  + '">演員:<input type="text" id="search1" onkeyup="searchactor()" /> </div>');
   
 //$("body").text('<script></script>');
 
